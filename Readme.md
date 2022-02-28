@@ -2,7 +2,7 @@
 
 for generate some data like this
 ```bash
-curl -XGET "http://localhost:9200/_cat/indices"
+curl -XGET "http://localhost:9200/_cat/indices?s=index"
 
 yellow open customer4.logs-2022.02.21 XAlL3XfYT8iGeuoNnIcjzQ 1 1   1 0  37.5kb  37.5kb
 yellow open customer1.logs-2022.02.19 LgsvYGvSSS6T8PRkH5G2Iw 1 1   1 0  18.1kb  18.1kb

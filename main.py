@@ -21,7 +21,7 @@ def prepare_indexes_names(indexes_name, dates) -> List:
 
 
 def run():
-    dates = ["2022.02.19", "2022.02.20", "2022.02.21"]
+    dates = ["2022.02.23", "2022.02.24", "2022.02.25", "2022.02.26", "2022.02.27", "2022.02.28"]
 
     indexes_name = ["customer1"]
     final_indexes_names = prepare_indexes_names(indexes_name, dates)
